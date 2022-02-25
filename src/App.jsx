@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import Login from './components/login/Login';
 
-function App() {
+function App({authService}) {
   return (
-    <h1>Hello :)</h1>
+    <Login authService={authService} />
   );
 }
 
