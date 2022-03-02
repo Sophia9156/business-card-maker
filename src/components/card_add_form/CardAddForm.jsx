@@ -14,7 +14,6 @@ const CardAddForm = ({FileInput, onSubmit}) => {
   const messageRef = useRef();
 
   const onFileChange = file => {
-    console.log(file);
     setFile({
       fileName: file.name,
       fileURL: file.url,
